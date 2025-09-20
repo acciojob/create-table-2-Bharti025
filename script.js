@@ -10,6 +10,7 @@ let columns=prompt("Input number of columns");
     let start=document.createElement("tr");
     for(let j=0; j<columns; j++){
         let data=document.createElement("td");
+		 data.textContent="Row-"+i+" Column-"+"j";
 		start.append(data);
 	}
 		table.append(start);
